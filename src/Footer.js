@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="footer">
-      This project was coded by{" "}
-      <a href="#" target="_blank">
+    <div className="Footer">
+            This project was coded by{" "}
+      <a href="https://github.com/paupyk" target="_blank">
         Kaylea Paup
       </a>{" "}
       and is
-      <a href="#" target="_blank">
+      <a href="https://github.com/paupyk/weather-rct" target="_blank">
         {" "}
         on GitHub
       </a>{" "}
@@ -17,5 +17,5 @@ export default function Footer() {
         hosted on Netlify
       </a>
     </div>
-  );
+    );
 }

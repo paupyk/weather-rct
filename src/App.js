@@ -1,22 +1,17 @@
 import './Weather.css';
 import React from 'react';
 import "./Weather.css";
+import axios from "axios";
+import Footer from './footer';
+import Search from "./Search.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>Weather App</h1>
-        <form id="search-form">
-          <input
-            type="search"
-            placeholder="Enter a city.."
-            required
-            class="search-input"
-            id="search-input"
-          />
-          <input type="submit" value="Search" class="search-button" />
-        </form>
+        <Search />
+        <Footer />
       </header>
     </div>
   );
