@@ -13,7 +13,7 @@ export default function Footer() {
         on GitHub
       </a>{" "}
       and
-      <a href="#" target="_blank" rel="noreferrer">
+      <a href="https://github.com/paupyk/weather-rct" target="_blank" rel="noreferrer">
         hosted on Netlify
       </a>
     </div>
