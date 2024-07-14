@@ -2,7 +2,7 @@ import './Weather.css';
 import React from 'react';
 import "./Weather.css";
 import axios from "axios";
-import Footer from './footer';
+import Footer from './Footer.js';
 import Search from "./Search.js";
 
 function App() {
